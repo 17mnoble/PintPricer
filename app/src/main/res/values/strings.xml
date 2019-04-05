@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">PintPricer</string>
     <string name="home_btn">Home</string>
-    <string name="logout_txt">Log Out</string>
     <string name="back_txt">Back</string>
+
+    ----------------Menu Text----------------
+    <string name="settings_name">Settings</string>
+    <string name="logout_name">Log Out</string>
 
     ----------------Main Page----------------
     <string name="login_txt">Login</string>

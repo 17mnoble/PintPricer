@@ -7,6 +7,11 @@
     tools:context=".CustomerLoginActivity"
     android:orientation ="vertical">
 
+    <include
+        android:id="@+id/app_actionbar"
+        layout="@layout/app_actionbar">
+    </include>
+
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
@@ -35,9 +40,6 @@
         android:layout_marginBottom="8dp"
         android:text="@string/back_txt" />
 
-    <include
-        android:id="@+id/app_actionbar"
-        layout="@layout/app_actionbar">
-    </include>
+
 
 </LinearLayout>
