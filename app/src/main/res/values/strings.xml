@@ -1,7 +1,18 @@
 <resources>
-    <string name="app_name">PintPricerv2</string>
-    <string name="regconfirm_prompt">Registration Complete</string>
+    <string name="app_name">PintPricer</string>
     <string name="home_btn">Home</string>
+    <string name="logout_txt">Log Out</string>
+    <string name="back_txt">Back</string>
+
+    ----------------Main Page----------------
+    <string name="login_txt">Login</string>
+
+    ----------------Customer Login Page----------------
+    <string name="email_txt">email</string>
+    <string name="password_txt">password</string>
+    <string name="register_txt">Register</string>
+
+    ----------------Selection Page---------------
     <string name="location_prompt">Please Select Location</string>
     <string name="drink_prompt">Please Select Drink Type</string>
 
@@ -23,4 +34,6 @@
 
     <string name="next_location_btn">Select a Location</string>
     <string name="next_drink_btn">Select a Drink Type</string>
+
+
 </resources>

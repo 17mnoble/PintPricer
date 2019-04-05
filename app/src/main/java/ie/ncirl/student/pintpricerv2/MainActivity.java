@@ -7,29 +7,32 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button mVendor, mCustomer;
+    private Button mLogin,mRegister;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mVendor = (Button) findViewById(R.id.vendor);
-        mCustomer = (Button) findViewById(R.id.customer);
+        mLogin = (Button) findViewById(R.id.login);
 
-        mVendor.setOnClickListener(new View.OnClickListener() {
+
+        mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, VendorLoginActivity.class);
+                Intent intent = new Intent(MainActivity.this, CustomerLoginActivity.class);
                 startActivity(intent);
                 finish();
                 return;
             }
         });
 
-        mCustomer.setOnClickListener(new View.OnClickListener() {
+        mRegister = (Button) findViewById(R.id.register);
+
+
+        mRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CustomerLoginActivity.class);
+                Intent intent = new Intent(MainActivity.this, CustomerRegisterActivity.class);
                 startActivity(intent);
                 finish();
                 return;
