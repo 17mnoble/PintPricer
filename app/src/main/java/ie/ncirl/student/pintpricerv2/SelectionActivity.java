@@ -26,7 +26,6 @@ public class SelectionActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_actionbar);
         setSupportActionBar (toolbar);
-        \
 
         Spinner locationSpinner = (Spinner) findViewById(R.id.spinner1);
 
